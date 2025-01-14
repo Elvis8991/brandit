@@ -159,12 +159,13 @@ header h1{
 .brandit-container h2{
     position: absolute;
     max-width: 200px;
-    margin: 80px 0 0 200px;
+    margin: 60px 0 0 200px;
+    font-size: 20px;
 }
 .brandit-container p{
     position: absolute;
     max-width: 200px;
-    margin: 200px 0 0 200px;
+    margin: 180px 0 0 200px;
 }
 .cup-container{
     height: 300px;
@@ -213,7 +214,7 @@ header h1{
 }
 .design-container h1{
     text-transform: capitalize;
-    font-size: 25px;
+    font-size: 20px;
     margin: 30px 0 0 10px;
     position: absolute;
     max-width: 150px;
