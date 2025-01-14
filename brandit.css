@@ -1,0 +1,323 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(9, 9, 39);
+    height: 70px;
+    width: 100%;
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+    margin: 10px 0 0 10px;
+    position: absolute;
+}
+nav{
+    background-color: gainsboro;
+    height: 200px;
+    width: 250px;
+    margin: 20px 0 0 150px;
+    position: absolute;
+    display: none;
+}
+nav a{
+    display: block;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin: 10px 0 0 20px;
+}
+nav a:hover{
+    background-color: gray;
+    height: 20px;
+    width: 100%;
+    color: #fff;
+}
+.box-nav{
+    background-color: #fff;
+    height: 40px;
+    width: 40px;
+    margin: 15px 0 0 350px;
+    position: absolute;
+}
+/*
+.box-nav span{
+    color: #fff;
+    height: 10px;
+    width: 30px;
+}
+*/
+.p-box{
+    height: 50px;
+    width: 250px;
+    background-color: #fff;
+    position: absolute;
+    margin: 40px 0 0 80px;
+    border-radius: 8px;
+}
+.p-nav{
+    margin: 10px 0 0 8px;
+}
+.p-box a{
+    text-decoration: none;
+    text-transform: capitalize;
+    margin: 0px 0 0 5px;
+    font-size: 18px;
+    color: #000;
+}
+header h1{
+    position: absolute;
+    color: #fff;
+    margin-left: 150px;
+}
+.container{
+    height: 300px;
+    width: 100%;
+    background-color: grey;
+}
+.quality{
+    background-color: orange;
+    height: 30px;
+    width: 100%;
+    align-content: center;
+    justify-items: center;
+}
+.quality p{
+    font-size: 12px;
+    color: #fff;
+}
+.tshirt-container{
+    height: 200px;
+    width: 100%;
+}
+.tshirt-container img{
+    height: 250px;
+    position: absolute;
+}
+.tshirt-container p{
+    max-width: 180px;
+    margin: 50px 0 0 210px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    position: absolute;
+}
+.tshirt-container a{
+    position: absolute;
+    margin: 150px 0 0 250px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: darkblue;
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    align-content: center;
+    font-size: 25px;
+    padding-left: 25px;
+}
+.service-container{
+    height: 300px;
+    width: 100%;
+    background-color: darkblue;
+    margin-top: 50px;
+}
+.service-container img{
+    height: 260px;
+    margin: 20px 0 0 210px;
+    position: absolute;
+}
+.service-container h1{
+    position: absolute;
+    color: orange;
+    margin: 40px 0 0 20px;
+    text-transform: uppercase;
+}
+.service-container p{
+    position: absolute;
+    max-width: 200px;
+    color: #fff;
+    margin: 90px 0 0 10px;
+}
+.brandit-container{
+    height: 300px;
+    width: 100%;
+}
+.brandit-container img{
+    height: 250px;
+    position: absolute;
+    margin: 20px 0 0 0;
+}
+.brandit-container h1{
+    position: absolute;
+    font-size: 40px;
+    margin: 20px 0 0 200px;
+    text-transform: uppercase;
+}
+.brandit-container h2{
+    position: absolute;
+    max-width: 200px;
+    margin: 80px 0 0 200px;
+}
+.brandit-container p{
+    position: absolute;
+    max-width: 200px;
+    margin: 200px 0 0 200px;
+}
+.cup-container{
+    height: 300px;
+    width: 100%;
+    background-color: darkblue;
+}
+.img1{
+    height: 250px;
+    margin: 25px 0 0 10px;
+    position: absolute;
+}
+.img2{
+    height: 100px;
+    position: absolute;
+    margin: 40px 0 0 90px;
+}
+.img3{
+    height: 100px;
+    position: absolute;
+    margin: 150px 0 0 90px;
+}
+.cup-container p{
+    position: absolute;
+    max-width: 200px;
+    margin: 40px 0 0 220px;
+    color: #fff;
+}
+.cup-container a{
+    position: absolute;
+    margin: 200px 0 0 260px;
+    height: 30px;
+    width: 100px;
+    background-color: orange;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    align-content: center;
+    padding-left: 30px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+}
+.design-container{
+    height: 300px;
+    width: 100%;
+}
+.design-container h1{
+    text-transform: capitalize;
+    font-size: 25px;
+    margin: 30px 0 0 10px;
+    position: absolute;
+    max-width: 150px;
+}
+.design-container p{
+    margin: 120px 0 0 10px;
+    position: absolute;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.design-container ul{
+    position: absolute;
+    margin: 150px 0 0 40px;
+}
+.myDesigns{
+    margin-top: 0px;
+    position: absolute;
+}
+.design1{
+    position: absolute;
+    height: 100px;
+    margin: 50px 0 0 170px;
+    border: #000 solid 2px;
+    border-radius: 0 16px 0 16px;
+}
+.design2{
+    position: absolute;
+    height: 100px;
+    margin: 50px 0 0 280px;
+    border-radius: 16px 0 16px 0;
+    border: #000 solid 2px;
+}
+.design3{
+    position: absolute;
+    height: 100px;
+    margin: 160px 0 0 170px;
+    border-radius: 16px 0 16px 0;
+    border: #000 solid 2px;
+}
+.design4{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    margin: 160px 0 0 280px;
+    border-radius: 0 16px 0 16px;
+    border: #000 solid 2px;
+}
+footer{
+    height: 200px;
+    background-color: darkblue;
+}
+.about_us{
+    margin: 30px 0 0 10px;
+    position: absolute;
+}
+.about_us h1{
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.about_us a{
+    color: orange;
+    margin: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.footer-service{
+    position: absolute;
+    margin: 30px 0 0 120px;
+}
+.footer-service h1{
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.footer-service a{
+    color: orange;
+    display: block;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.support{
+    position: absolute;
+    margin: 30px 0 0 250px;
+}
+.support h1{
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.support a{
+    color: orange;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.contact{
+    position: absolute;
+    margin: 80px 0 0 250px;
+}
+.contact h1{
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.contact p{
+    color: orange;
+}
