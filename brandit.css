@@ -8,12 +8,6 @@ header{
     height: 70px;
     width: 100%;
 }
-.logo img{
-    height: 50px;
-    width: 50px;
-    margin: 10px 0 0 10px;
-    position: absolute;
-}
 nav{
     background-color: gainsboro;
     height: 200px;
@@ -49,28 +43,11 @@ nav a:hover{
     width: 30px;
 }
 */
-.p-box{
-    height: 50px;
-    width: 250px;
-    background-color: #fff;
-    position: absolute;
-    margin: 40px 0 0 80px;
-    border-radius: 8px;
-}
-.p-nav{
-    margin: 10px 0 0 8px;
-}
-.p-box a{
-    text-decoration: none;
-    text-transform: capitalize;
-    margin: 0px 0 0 5px;
-    font-size: 15px;
-    color: #000;
-}
 header h1{
     position: absolute;
     color: #fff;
-    margin-left: 150px;
+    margin: 10px 0 0 20px;
+    font-size: 40px;
 }
 .container{
     height: 300px;
@@ -79,7 +56,7 @@ header h1{
 }
 .quality{
     background-color: orange;
-    height: 30px;
+    height: 70px;
     width: 100%;
     align-content: center;
     justify-items: center;
@@ -87,26 +64,33 @@ header h1{
 .quality p{
     font-size: 12px;
     color: #fff;
+    display: block;
 }
 .tshirt-container{
-    height: 750px;
+    height: 60rem;
     width: 100%;
 }
 .tshirt-container img{
-    height: 600px;
-    margin-left: 5px;
+    height: 720px;
+    margin: 10px 0 0 10px;
     position: absolute;
 }
+.tshirt-container h1{
+    position: absolute;
+    margin: 750px 0 0 20px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
 .tshirt-container p{
-    font-size: 25px;
-    margin: 610px 0 0 20px;
+    font-size: 15px;
+    margin: 800px 0 0 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: left;
     position: absolute;
 }
 .tshirt-container a{
     position: absolute;
-    margin: 720px 0 0 20px;
+    margin: 58rem 0 0 20px;
     text-decoration: none;
     text-transform: capitalize;
     background-color: darkblue;
@@ -120,50 +104,61 @@ header h1{
     padding-left: 25px;
 }
 .service-container{
-    height: 700px;
+    height: 98rem;
     width: 100%;
     margin-top: 50px;
 }
-.service-container img{
-    height: 400px;
-    margin: 0px 0 0 5px;
-    position: absolute;
+.service-pics{
+    display: inline-flex;
+    margin-left: 10px;
+}
+.ser1{
+    height: 180px;
+}
+.ser2{
+    height: 180px;
+    margin-left: 10px;
+}
+.ser3{
+    height: 180px;
+    margin-left: 10px;
+}
+.service__contain{
+    background-color: #F1DBCD;
+    height: 200px;
+    width: 100%;
 }
 .service-container h1{
     position: absolute;
-    color: orange;
-    margin: 410px 0 0 20px;
+    color: darkblue;
+    margin: 20px 0 0 10px;
     text-transform: uppercase;
 }
 .service-container p{
     position: absolute;
     color: #000;
-    margin: 450px 0 0 20px;
-    font-size: 25px;
+    margin: 60px 0 0 10px;
+    font-size: 15px;
+}
+.service__contain2{
+    background-color: darkblue;
+    height: 73rem;
+    width: 100%;
+}
+.service__contain2{
+    position: absolute;
+}
+.service__contain2 li{
+    color: #fff;
+    margin: 20px 0 0 10px;
+}
+.service__contain2 img{
+    margin: 20px 0 0 13px;
+    height: 500px;
 }
 .brandit-container{
     height: 800px;
     width: 100%;
-}
-.brandit-container img{
-    height: 600px;
-    margin-left: 5px;
-    position: absolute;
-}
-.brandit-container h1{
-    position: absolute;
-    font-size: 40px;
-    margin: 600px 0 0 20px;
-    text-transform: uppercase;
-}
-.brandit-container h2{
-    position: absolute;
-    margin: 650px 0 0 20px;
-    font-size: 20px;
-}
-.brandit-container p{
-    position: absolute;
-    margin: 700px 0 0 20px;
 }
 .cup-container{
     height: 800px;
@@ -300,6 +295,20 @@ hr{
 .office p{
     margin: 20px 0 0 80px;
     font-size: 20px;
+}
+.clothing{
+    height: 200px;
+}
+.clothing h1{
+    text-transform: capitalize;
+    margin: 10px 0 0 130px;
+    color: darkblue;
+}
+.clothing a{
+    display: block;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-left: 20px; 
 }
 @media screen and (width:768px) {
     header{
