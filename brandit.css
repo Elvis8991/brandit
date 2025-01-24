@@ -104,7 +104,7 @@ header h1{
     padding-left: 25px;
 }
 .service-container{
-    height: 98rem;
+    height: 99rem;
     width: 100%;
     margin-top: 50px;
 }
@@ -142,7 +142,7 @@ header h1{
 }
 .service__contain2{
     background-color: darkblue;
-    height: 73rem;
+    height: 75rem;
     width: 100%;
 }
 .service__contain2{
@@ -150,15 +150,86 @@ header h1{
 }
 .service__contain2 li{
     color: #fff;
-    margin: 20px 0 0 10px;
+    margin: 20px 0 0 30px;
 }
 .service__contain2 img{
     margin: 20px 0 0 13px;
     height: 500px;
 }
 .brandit-container{
-    height: 800px;
+    height: 80rem;
     width: 100%;
+}
+.boo-container{
+    position: absolute;
+}
+.boo1{
+    height: 300px;
+    width: 200px;
+    margin: 10px 0 0 10px;
+    position: absolute;
+    background-image: url(picha/white.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.boo2{
+    height: 300px;
+    width: 200px;
+    background-image: url(picha/look.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 10px 0 0 220px;
+}
+.boo3{
+    height: 300px;
+    width: 200px;
+    background-image: url(picha/girls.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 20px 0 0 10px;
+    position: absolute;
+}
+.boo4{
+    height: 300px;
+    width: 200px;
+    background-image: url(picha/friends.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 20px 0 0 220px;
+}
+.boo5{
+    height: 300px;
+    width: 200px;
+    background-image: url(picha/outdoor.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 20px 0 0 10px;
+    position: absolute;
+}
+.boo6{
+    height: 300px;
+    width: 200px;
+    background-image: url(picha/stand.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 20px 0 0 220px;
+}
+.boo7{
+    height: 300px;
+    width: 200px;
+    background-image: url(picha/Young\ Person\ in\ Streetwear\ Fashion.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin: 20px 0 0 10px;
+    position: absolute;
+}
+.boo8{
+    height: 300px;
+    width: 200px;
+    background-image: url(picha/Urban\ Streetwear\ Portrait.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin: 20px 0 0 220px;
 }
 .cup-container{
     height: 800px;
