@@ -50,47 +50,48 @@ header h1{
     font-size: 40px;
 }
 .container{
-    height: 300px;
+    height: 51rem;
     width: 100%;
-    background-image: url(picha/bp-image-bp-growing-marketing-brand-archetypes.jpg);
 }
-.quality{
-    background-color: orange;
-    height: 70px;
+.small-container{
+    background-color: pink;
+    border-radius: 8px;
+    height: 200px;
+    width: 400px;
+    margin: 10px 0 0 10px;
+}
+.container2{
+    height: 600px;
     width: 100%;
-    align-content: center;
-    justify-items: center;
-}
-.quality p{
-    font-size: 12px;
-    color: #fff;
-    display: block;
+    background-color: #000;
+    margin-top: 10px;
 }
 .tshirt-container{
-    height: 60rem;
+    height: 330px;
     width: 100%;
 }
 .tshirt-container img{
-    height: 720px;
+    height: 300px;
     margin: 10px 0 0 10px;
     position: absolute;
+    border-radius: 8px;
 }
 .tshirt-container h1{
     position: absolute;
-    margin: 750px 0 0 20px;
+    margin: 20px 0 0 200px;
     font-size: 40px;
     text-transform: uppercase;
 }
 .tshirt-container p{
     font-size: 15px;
-    margin: 800px 0 0 20px;
+    margin: 70px 0 0 200px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: left;
     position: absolute;
 }
 .tshirt-container a{
     position: absolute;
-    margin: 58rem 0 0 20px;
+    margin: 280px 0 0 200px;
     text-decoration: none;
     text-transform: capitalize;
     background-color: darkblue;
@@ -104,7 +105,7 @@ header h1{
     padding-left: 25px;
 }
 .service-container{
-    height: 100rem;
+    height: 80rem;
     width: 100%;
     margin-top: 50px;
 }
@@ -125,20 +126,56 @@ header h1{
 }
 .service__contain{
     background-color: #F1DBCD;
-    height: 200px;
+    height: 70rem;
     width: 100%;
 }
 .service-container h1{
     position: absolute;
     color: darkblue;
-    margin: 20px 0 0 10px;
+    margin: 20px 0 0 90px;
     text-transform: uppercase;
 }
 .service-container p{
     position: absolute;
     color: #000;
+    text-align: center;
     margin: 60px 0 0 10px;
+    max-width: 400px;
     font-size: 15px;
+}
+.v-box{
+    position: absolute;
+    height: 700px;
+    width: 400px;
+    margin: 150px 0 0 10px;
+}
+.v1{
+    background-color: #fff;
+    height: 200px;
+    width: 150px;
+    margin: 10px 0 0 30px;
+    border-radius: 8px;
+}
+.v2{
+    background-color: #fff;
+    height: 200px;
+    width: 150px;
+    margin: 30px 0 0 30px;
+    border-radius: 8px;
+}
+.v3{
+    background-color: #fff;
+    height: 200px;
+    width: 150px;
+    margin: 30px 0 0 30px;
+    border-radius: 8px;
+}
+.v4{
+    background-color: #fff;
+    height: 200px;
+    width: 150px;
+    margin: 30px 0 0 30px;
+    border-radius: 8px;
 }
 .service__contain2{
     background-color: darkblue;
@@ -162,6 +199,7 @@ header h1{
 }
 .boo-container{
     position: absolute;
+    margin-top: 40px;
 }
 .boo1{
     height: 300px;
