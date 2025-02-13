@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 header{
-    background-color: pink;
+    background-color: darkblue;
     height: 70px;
     width: 100%;
 }
@@ -538,13 +538,14 @@ footer{
 @media screen and (width:768px) {
     header{
         flex-direction: column;
+        background-color: darkblue;
     }
     nav{
-        margin: 10px 0 0 400px;
+        margin: 10px 0 0 380px;
         display: inline-flex;
-        background-color: rgb(9, 9, 39);
         height: 50px;
         width: 350px;
+        background-color: darkblue;
     }
     nav a{
         color: #fff;
@@ -556,7 +557,304 @@ footer{
     header h1{
         display: none;
     }
-    .p-box{
-        margin: 10px 0 0 100px;
+    .container{
+        height: 530px;
+    }
+    .container2{
+        margin: 0 0 0 70px;
+        width: 100%;
+    }
+    .cir1{
+        height: 70px;
+        width: 70px;
+    }
+    .cir2{
+        margin-left: 40px;
+        height: 70px;
+        width: 70px;
+    }
+    .cir3{
+        margin-left: 40px;
+        height: 70px;
+        width: 70px;
+    }
+    .cir4{
+        margin-left: 40px;
+        height: 70px;
+        width: 70px;
+    }
+    .cir5{
+        margin-left: 40px;
+        height: 70px;
+        width: 70px;
+    }
+    .cir6{
+        margin-left: 40px;
+        height: 70px;
+        width: 70px;
+    }
+    .small-container{
+        height: 400px;
+        width: 750px;
+    }
+    .tshirt-container h1{
+        margin-left: 330px;
+    }
+    .tshirt-container p{
+        margin-left: 180px;
+    }
+    .tshirt-container a{
+        margin-left: 350px;
+    }
+    .pics{
+        height: 420px;
+    }
+    .pics h3{
+        margin-left: 280px;
+    }
+    .service-pics{
+        margin-left: 40px;
+    }
+    .ser1{
+        height: 300px;
+    }
+    .ser2{
+        height: 300px;
+        margin-left: 30px;
+    }
+    .ser3{
+        height: 300px;
+        margin-left: 30px;
+    }
+    .pics a{
+        margin: 380px 0 0 370px;
+        font-size: 15px;
+    }
+    .v-box{
+        height: 300px;
+        margin-left: 130px;
+    }
+    .v1{
+        height: 250px;
+        width: 150px;
+        background-color: pink;
+        border: none;
+        border-radius: 8px;
+        margin: 10px 0 0 10px;
+        position: absolute;
+    }
+    .v2{
+        height: 250px;
+        width: 150px;
+        background-color: pink;
+        border: none;
+        border-radius: 8px;
+        margin: 10px 0 0 190px;
+        position: absolute;
+    }
+    .v3{
+        height: 250px;
+        width: 150px;
+        background-color: pink;
+        border: none;
+        border-radius: 8px;
+        margin: 10px 0 0 370px;
+        position: absolute;
+    }
+    .service-container{
+        margin-left: 200px;
+    }
+    .boo-container{
+        margin: 10px 0 0 50px;
+    }
+    .boo1{
+        height: 300px;
+        width: 200px;
+        margin: 10px 0 0 10px;
+        position: absolute;
+        background-image: url(picha/white.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .boo2{
+        height: 300px;
+        width: 200px;
+        background-image: url(picha/look.jpg);
+        background-size: cover;
+        background-position: center;
+        margin: 10px 0 0 230px;
+        position: absolute;
+    }
+    .boo3{
+        height: 300px;
+        width: 200px;
+        background-image: url(picha/girls.jpg);
+        background-size: cover;
+        background-position: center;
+        margin: 10px 0 0 450px;
+    }
+    .boo4{
+        height: 300px;
+        width: 200px;
+        background-image: url(picha/friends.jpg);
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        margin: 350px 0 0 10px;
+    }
+    .boo5{
+        height: 300px;
+        width: 200px;
+        background-image: url(picha/outdoor.jpg);
+        background-size: cover;
+        background-position: center;
+        margin: 350px 0 0 450px;
+        position: absolute;
+    }
+    .boo6{
+        height: 300px;
+        width: 200px;
+        background-image: url(picha/stand.jpg);
+        background-size: cover;
+        background-position: center;
+        margin: 350px 0 0 230px;
+        position: absolute;
+    }
+    .boo7{
+        height: 300px;
+        width: 200px;
+        background-image: url(picha/Young\ Person\ in\ Streetwear\ Fashion.jpeg);
+        background-size: cover;
+        background-position: center;
+        margin: 700px 0 0 10px;
+        position: absolute;
+    }
+    .boo8{
+        height: 300px;
+        width: 200px;
+        background-image: url(picha/Urban\ Streetwear\ Portrait.jpeg);
+        background-size: cover;
+        background-position: center;
+        margin: 700px 0 0 230px;
+    }
+    .brandit-container{
+        height: 63rem;
+    }
+    .cup-container{
+        margin-left: 50px;
+    }
+    .img1{
+        height: 200px;
+        margin: 10px 0 0 10px;
+        position: absolute;
+    }
+    .cup-container p{
+        position: absolute;
+        margin: 40px 0 0 200px;
+        color: #000;
+        font-size: 15px;
+        max-width: 300px;
+    }
+    .cup-container a{
+        position: absolute;
+        margin: 150px 0 0 200px;
+        height: 30px;
+        width: 100px;
+        background-color: darkblue;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        align-content: center;
+        padding-left: 20px;
+        text-transform: capitalize;
+        text-decoration: none;
+        font-size: 12px;
+    }
+    footer{
+        height: 400px;
+        background-color: darkblue;
+    }
+    .contact{
+        margin: 30px 0 0 20px;
+        position: absolute;
+    }
+    .contact h1{
+        color: orangered;
+        text-transform: capitalize;
+        font-size: 20px;
+    }
+    .contact a{
+        color: #fff;
+        font-size: 15px;
+        text-decoration: none;
+        padding: 5px;
+    }
+    .office{
+        position: absolute;
+        margin: 30px 0 0 250px;
+    }
+    .office h1{
+        color: orangered;
+        font-size: 20px;
+        text-transform: capitalize;
+    }
+    .office p{
+        color: #fff;
+        font-size: 15px;
+    }
+    .clothing{
+        position: absolute;
+        margin: 30px 0 0 450px;
+    }
+    .clothing h1{
+        color: orangered;
+        font-size: 20px;
+        text-transform: capitalize;
+    }
+    .clothing a{
+        color: #fff;
+        font-size: 15px;
+        display: block;
+        text-decoration: none;
+        padding: 5px;
+    }
+    .promotion{
+        position: absolute;
+        margin: 30px 0 0 600px;
+    }
+    .promotion h1{
+        color: orangered;
+        font-size: 15px;
+        max-width: 150px;
+    }
+    .promotion a{
+        color: #fff;
+        font-size: 12px;
+        text-decoration: none;
+        display: block;
+        padding: 5px;
+    }
+}
+@media screen and (width:1024px) {
+    header{
+        background-color: pink;
+        flex-direction: column;
+    }
+    nav{
+        margin: 10px 0 0 560px;
+        display: inline-flex;
+        height: 50px;
+        width: 350px;
+        background-color: darkblue;
+    }
+    nav a{
+        color: #fff;
+        font-size: 20px;
+    }
+    .box-nav{
+        display: none;
+    }
+    header h1{
+        display: none;
     }
 }
