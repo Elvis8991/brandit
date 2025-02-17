@@ -49,6 +49,11 @@ header h1{
     margin: 10px 0 0 20px;
     font-size: 40px;
 }
+.head{
+    height: 300px;
+    width: 100%;
+    background-color: darkblue;
+}
 .container{
     height: 330px;
     width: 100%;
@@ -535,7 +540,7 @@ footer{
     text-decoration: none;
     display: block;
 }
-@media screen and (width:768px) {
+@media screen and (768px <= width <= 425px) {
     header{
         flex-direction: column;
         background-color: darkblue;
@@ -835,7 +840,7 @@ footer{
         padding: 5px;
     }
 }
-@media screen and (width:1024px) {
+@media screen and (1024px <= width <= 768px) {
     header{
         background-color: pink;
         flex-direction: column;
